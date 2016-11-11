@@ -12,6 +12,19 @@ body {
 canvas[resize] {
     width: 100%;
     height: 100%;
+    position:fixed;
+}
+
+.legs{
+    z-index:-100;
+    position:fixed;
+    height:200px;
+    
+}
+
+.legs svg{
+    height:200px;
+    width:auto;
 }
 
 

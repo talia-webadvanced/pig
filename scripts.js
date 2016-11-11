@@ -10,4 +10,12 @@ $(document).ready(function(){
                     $(".questionMark").show(550);
         });
                   
+                  
+                                    
+        console.log("leg position variable is " + legPosition);
+                                    
+        $("#leg1").css({"top": "100px", "left": "500px"});
+                                    
+                                   
+                  
 });
